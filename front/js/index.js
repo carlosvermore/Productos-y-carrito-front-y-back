@@ -6,6 +6,7 @@ function crearTarjetasProductosInicio(productos){
     nuevaBicicleta.classList = "tarjeta-producto";
     nuevaBicicleta.innerHTML = `
       <img src="${producto.urlImagen}">
+
       <h3>${producto.nombre}</h3>
       <p>$${producto.precio}</p>
       <button>Agregar al carrito</button>
