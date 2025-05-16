@@ -11,7 +11,7 @@ console.log("Escuchando comunicaciones al puerto "+app.get("port"));
 
 //Middlewares
 app.use(cors({
-  origin: ["http://127.0.0.1:5501","http://127.0.0.1:5500"]
+  origin: ["http://192.168.1.134:3001","http://127.0.0.1:3001"]
 }))
 app.use(morgan("dev"))
 app.use(express.json())
